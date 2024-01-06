@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/server.js",
     "dev": "nodemon server.js",
-    "install": "cd server && npm i && cd ../client && npm i --production=false",
+    "install": "cd backend && npm i && cd ../frontend && npm i --production=false",
     "render-build":"npm install && npm run build"
   },
   "keywords": [],
