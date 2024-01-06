@@ -5,11 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node backend/server.js",
-    "dev": "nodemon server.js",
-    "install": "cd backend && npm i && cd ../frontend && npm i --production=false",
-    "build": "cd client && npm run build",
-    "render-build":"npm install && npm run build"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+   
   },
   "keywords": [],
   "author": "",
